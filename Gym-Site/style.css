@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.navbar div .navbar-brand{
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 900px;
+}
+.navbar div .navbar-brand span{
+    color: orangered;
+}
+.navbar div .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    margin-right: 13px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.navbar div .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: orangered;
+
+    transition: 0.5s;
+}
+.slider{
+    height: 500px;
+    background: linear-gradient(rgba(39, 38, 38, 0.5),rgba(51, 50, 50, 0.5)),url("imges/slider1.jpeg");
+    background-size: cover;
+}
